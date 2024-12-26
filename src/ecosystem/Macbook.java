@@ -1,9 +1,11 @@
+package ecosystem;
+
 public class Macbook implements AppleDevice {
     private String deviceName;
     private String model;
     private int storage;
     protected Macbook() {
-        this("Macbook", "Pro", 128);
+        this("ecosystem.Macbook", "Pro", 128);
     }
     protected Macbook(String deviceName, String model, int storage) {
         this.deviceName = deviceName;

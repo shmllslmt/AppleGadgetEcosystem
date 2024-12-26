@@ -1,3 +1,5 @@
+package ecosystem;
+
 public interface AppleDevice {
     /**
      * This method displays the device that is currently connecting to Wi-Fi

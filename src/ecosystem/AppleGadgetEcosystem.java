@@ -1,9 +1,14 @@
+package ecosystem;
+
+/**
+ * gg
+ */
 
 public class AppleGadgetEcosystem {
     public static void main(String[] args) {
-        iPhone iphone = new iPhone("iPhone", "14 Pro Max", 512);
+        iPhone iphone = new iPhone("ecosystem.iPhone", "14 Pro Max", 512);
         iPad ipad = new iPad();
-        Macbook macbook = new Macbook("Macbook", "Air", 256);
+        Macbook macbook = new Macbook("ecosystem.Macbook", "Air", 256);
 
         AppleGadgetNetwork network = new AppleGadgetNetwork();
         network.addDevice(iphone);
